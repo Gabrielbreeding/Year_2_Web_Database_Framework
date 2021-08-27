@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>Site | MPG</title>
+</head>
+<body class="container"></body>
+    <header>
+        <h1>Website Review</h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>  
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="MPG.html">MPG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2>MPG jQuery</h2>
+        <img src="images/mpg-tn.jpg">
+        <form class="mpg">
+            <div id="miles_container">
+                <label id="miles_label">Miles Driven:</label>
+                <input id="miles_input" type="text" name="Miles">
+                <p class="error" id="miles_error">*</p>
+            </div>
+            <div id="gallons_container">
+                <label id="gallons_label">Gallons Used:</label>
+                <input id="gallons_input" type="text" name="Gallons">
+                <p class="error" id="gallons_error">*</p>
+            </div>
+            <div id="mpg_container">
+                <label id="mpg_label">Miles Per Gallon:</label>
+                <input id="mpg_input" readonly="true" type="text" name="MPG">
+                <p class="error" id="mpg_error"></p>
+            </div>
+            <div id="buttons">
+                <button id="calculate" onclick="calc();" type="button" title="Calculate">Calculate</button>
+                <button id="clear" type="reset" onclick="clr()" title="Clear">Clear</button>
+            </div>       
+        </form>
+        <h2 id="title">To calculate the miles per gallon (MPG):</h2>
+        <p>
+            Get the miles traveled from the trip odometer; or subtract the original odometer reading from the current one.
+        </p>
+        <p>
+            Divide the miles driven by the number of gallons of gas used to determine the MPG.
+        </p>
+        <p>
+            The result will be your car's average MPG for the current driving period.
+        </p>
+    </div>
+    <footer>
+        <p>Copyright @ 2021 - Gabriel Breeding</p>
+    </footer>
+    <script src="js/mpg.js"></script>
+</body>
+
+</html>

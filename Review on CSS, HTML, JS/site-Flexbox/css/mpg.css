@@ -1,0 +1,68 @@
+/* - Styles - */
+
+/* - The Form - */
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1.5rem;
+}
+
+form div {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+label {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-right:0.2rem;
+}
+
+#comments_label {
+    align-self: flex-end;
+}
+
+#buttons {
+    margin-top: 1.5rem;
+}
+
+#submit_button {
+    margin-left: 19rem;
+}
+
+.error {
+    color: red;
+}
+
+/* - Text - */
+
+h2 {
+    font-size: 20px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+/* - Media Queries - */
+
+@media (max-width: 550px){
+    img {
+        float: none;
+        padding-bottom: 2rem;
+        padding-left: 8rem;
+    }
+}

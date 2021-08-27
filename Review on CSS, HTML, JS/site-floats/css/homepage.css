@@ -1,0 +1,30 @@
+/* - Color - */
+body {
+    background: #808080;
+    color: #3399ff;
+
+    border-color: yellow;
+    border-style: solid;
+}
+
+header, footer {
+    background: #3399ff;
+    color: #fff;
+}
+
+.container {
+    background: #000059;
+    color: white;
+}
+
+
+/* - Floats - */
+img {
+    float: left;
+}
+
+div p {
+    float: none;
+}
+
+

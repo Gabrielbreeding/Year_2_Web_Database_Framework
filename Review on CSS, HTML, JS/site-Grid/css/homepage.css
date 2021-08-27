@@ -1,0 +1,103 @@
+/* - Color - */
+body {
+    background: #808080;
+
+
+    border-color: yellow;
+    border-style: solid;
+}
+
+header, footer {
+    background: #3399ff;
+    color: #fff;
+}
+
+.container {
+    background: #000059;
+    color: white;
+}
+
+/* - Style - */
+
+/* - Body - */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 30% 50% 20%;
+    height: max-content;
+}
+
+/* - Header & Navigation - */
+
+header {
+    max-width: 1600px;
+    height: 500%;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    justify-content: center;
+}
+
+header nav {
+    list-style-type: none;
+}
+
+header nav ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: white;
+}
+
+header nav ul li {
+    width: fit-content;
+    display: block;
+    justify-content: center;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    
+}
+
+header nav ul li a:hover {
+    color: grey;
+}
+
+/* - Content - */
+
+h2 {
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+img {
+    float: left;
+}
+
+div p {
+    float: none;
+}
+
+/* - Footer - */
+
+footer {
+    position:fixed;
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    width:100%;
+
+    bottom: 0;
+}
+
