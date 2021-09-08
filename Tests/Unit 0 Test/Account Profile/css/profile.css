@@ -1,0 +1,43 @@
+body {
+    border:blue;
+    border-style: solid;
+}
+h1 {
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+button {
+    width: 16rem;
+    margin-right: .5rem;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+
+}
+#buttons {
+    margin-bottom: 1.8rem;
+}
+.form-tri-block {
+    display: flex;
+    margin-bottom:0.8rem;
+
+}
+.form-tri-block label {
+    width: 8rem;
+}
+.form-tri-block input {
+    width: 16rem;
+}
+.error {
+    color: red;
+    margin-left: 0.5rem;
+
+    font-weight: bolder;
+}
+
+
+
+

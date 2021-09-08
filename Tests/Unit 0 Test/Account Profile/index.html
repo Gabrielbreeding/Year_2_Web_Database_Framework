@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/profile.css">
+    <script src="js/profile.js"></script>
+    <title>My Account Profile</title>
+</head>
+<body>
+    <header><h1>My Account Profile</h1></header>
+
+    <div id="container">
+        <form>
+            <div id="success"></div>
+
+            <div class="form-tri-block">
+                <label id="f-name-label" for="f-name-text">First Name:</label>
+                <input id="f-name-text" name="f-name-text" type="text">
+                <span class="error">Enter a first name.</span>
+            </div>
+            <div class="form-tri-block">
+                <label id="l-name-label" for="l-name-text">Last Name:</label>
+                <input id="l-name-text" name="l-name-text" type="text">
+                <span class="error">Enter a last name.</span>
+            </div>
+            <div class="form-tri-block">
+                <label id="email-label" for="email-text">E-Mail:</label>
+                <input id="email-text" name="email-text" type="email">
+                <span class="error">Enter a valid email.</span>
+            </div>
+            <div class="form-tri-block">
+                <label id="phone-label" for="phone-text">Mobile phone:</label>
+                <input id="phone-text" name="phone-text" type="text">
+                <span class="error">Enter a valid phone number.</span>
+            </div>
+            <div class="form-tri-block">
+                <label id="zip-label" for="zip-text">Zip Code:</label>
+                <input id="zip-text" name="zip-text" type="text">
+                <span class="error">Enter a valid zip code.</span>
+            </div>
+            <div class="form-tri-block">
+                <label id="bday-label" for="bday-text">Date of Birth:</label>
+                <input id="bday-text" name="bday-text" type="text">
+                <span class="error">Enter a valid birth date.</span>
+            </div>
+
+            <div id="buttons">
+                <button id="button-save" type="button">Save</button>
+                <button id="button-clr" type="button">Clear</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
