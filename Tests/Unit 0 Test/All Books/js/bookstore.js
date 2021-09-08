@@ -22,10 +22,10 @@ class BookShelf {
 
     get bookInfo () {
         const output = new Array();
-        for (let i = 0; i <= this.books.length; i++){
-            for (let j = 0; j <= this.bookInfoAmount; j++){
-                console.log(this.books[i][j]);
-                output.push(new Array (this.books[i][j])); // will go through all books and their info. once all info of a book is 
+        for (let i = 0; i < this.books.length; i++){
+            for (let j = 0; j < this.bookInfoAmount; j++){
+                console.log(this.books[i]);
+                output.push(new Array (this.books[i].title, this.books[i].author, this.books[i].isbn, this.books[i].price)); // will go through all books and their info. once all info of a book is 
                 // collected, add it to output and continue until all books information had been dumped into output.
             }
         }
@@ -46,7 +46,6 @@ class Book {
         this.isbn = isbn;
         this.price = price;
     }
-
 };
 
 
