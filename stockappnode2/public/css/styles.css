@@ -1,0 +1,41 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 4rem;;
+  background: lightblue;
+	color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.jumbotron {
+  font-size: 2rem;
+  font-weight: bold;
+  background: purple;
+  color: white;
+}
+
+.home-content {
+	font-size: 2rem;
+}
+
+.home-content ul li {
+	list-style: url(../images/ticker.png);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+}
